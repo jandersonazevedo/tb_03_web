@@ -1,0 +1,31 @@
+.usuario-info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0px 20px 20px 20px;
+    background:  white;
+    border: 1px solid #242a3c;
+    border-radius: 5px;
+}
+
+.topico-info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 10px 20px 20px 20px;
+    background:  aliceblue;
+    border: 1px solid #242a3c;
+    border-radius: 5px;
+}
+
+.topico-info strong{
+    font-size: 25px;
+    color: #222;
+    font-weight: 600;
+}
+.topico-info h1 p{
+    font-size: 14px;
+    color: #777;
+}
+.topico-info span{
+    font-size: 20px;
+    color: #222;
+}

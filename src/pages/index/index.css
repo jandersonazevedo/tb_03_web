@@ -1,0 +1,181 @@
+.topico-list{
+    margin: 20px auto 0;
+    padding: 10px;
+    max-width: 700px;
+}
+
+.topico-list article{
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 20px 20px 1px 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+.topico-list article strong{
+    font-size: 21px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.topico-list article strong p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.topico-list article p small{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.topico-list article p{
+    font-size: 17px;
+    color: #333;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.topico-list article a{
+    height: 25px;
+    border-radius: 5px;
+    background: none;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbfbfb;
+    background-color: #102040;
+    padding: 5px;
+}
+
+.topico-list article a:hover{
+    transition: 0.3s;
+    background: #000;
+    color: #fbfbfb;
+}
+
+.publicacao-list{
+    margin: 10px auto 0;
+    padding: 10px;
+    max-width: 700px;
+}
+
+.publicacao-list article{
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+.publicacao-list article strong{
+    font-size: 21px;
+    margin-top: 5px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.publicacao-list article strong p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.publicacao-list article p{
+    font-size: 20px;
+    color: #111;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.btn-CRUD{
+    text-align: right;
+}
+
+.btn-CRUD a, .btn-CRUD button{
+    height: 27px;
+    width: auto;
+    border-radius: 5px;
+    background: none;
+    margin: 10px 0px 0px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    background-color: #333;
+    cursor: pointer;
+    border: 0;
+}
+#btn-editar{
+    background-color:darkgoldenrod;
+}#btn-editar:hover{
+    transition: 0.3s;
+    background-color:rgb(245, 182, 22);
+}
+#btn-deletar{
+    background-color:darkred;
+}#btn-deletar:hover{
+    transition: 0.3s;
+    background-color:red;
+}
+#btn-voltar{
+    align-self: left;
+    background-color:rgb(0, 90, 163);
+}#btn-voltar:hover{
+    transition: 0.3s;
+    background-color:dodgerblue;
+}#btn-abrir{
+    align-self: left;
+    background-color:#102040;
+}#btn-abrir:hover{
+    transition: 0.3s;
+    background-color:#1d3a74;
+}
+
+.publicacao-list article a:hover{
+    transition: 0.3s;
+    background: #000;
+    color: white;
+}
+.actions button{
+    padding: 3px;
+}
+.actions button:enabled{
+    cursor: pointer;
+}
+.action-next{
+    float: right;
+}
+.usuario-list{
+    margin: 20px auto 0;
+    padding: 10px;
+    max-width: 700px;
+}
+
+.usuario-list article{
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+.usuario-list article strong{
+    font-size: 21px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.usuario-list article strong p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.usuario-list article p{
+    font-size: 17px;
+    color: #444;
+    margin-top: 5px;
+    line-height: 24px;
+}
